@@ -1,0 +1,233 @@
+.header {
+ border-bottom: black solid 0.5px
+
+}
+
+.header-announcement-bar-wrapper {
+  padding-bottom: 0px !important;
+  padding-top: 0px !important;  
+}
+
+.header-nav-item {
+  border-left: black solid 0.5px;
+  padding-bottom:30px;
+  margin-right:-30px;
+  padding-top: 30px;
+  font-family: AzoSans-regular;
+  font-weight: lighter;
+padding-left: 30px;
+}
+
+@font-face {    
+font-family: 'AzoSans-light';       
+src: url('https://static1.squarespace.com/static/602cd57c54fe9570c40b2b67/t/60300ec878f21b3b59e472dd/1613762248963/AzoSans-Light.ttf');  }
+
+@font-face {    
+font-family: 'Cormorantgaramond-light';     
+src: url(https://static1.squarespace.com/static/602cd57c54fe9570c40b2b67/t/60303f98dbf7306159e683fc/1613774746849/CormorantGaramond-Light.ttf);  }
+
+@font-face {    
+font-family: 'AzoSans-regular';       
+src: url(https://static1.squarespace.com/static/602cd57c54fe9570c40b2b67/t/603018d25f663a21a2190ef1/1613764819042/AzoSans-Regular.ttf);  }
+h2 {
+  line-height: 0.7em;
+  font-size:5em;
+  font-family: 'Cormorantgaramond-light';
+  font-weight: lighter;
+}
+
+@media screen and (max-width:480px) {
+  h2 {
+    font-size: 3em;
+  } 
+  } 
+
+h3 {
+  font-family: AzoSans-light;
+  font-size: 1.4em;
+  font-weight: lighter; 
+  line-height:0em;
+  
+}
+@media screen and (max-width:480px) {
+  h3 {
+    font-size: 1.2em;
+ 
+  }
+}
+
+.woman {
+  width: 90%;
+  height: 90%; 
+  position:relative;
+  opacity:1;
+  left:5em;
+  top:-9em;
+  z-index: 2;
+}
+@media screen and (max-width:480px) {
+  .woman {
+    top: -2em;
+  position:relative; 
+    margin-right: auto; 
+    margin-left: auto;
+    left:0em;
+  }
+}
+
+.rose {
+  width: 200px;
+  height:200px;
+  position: relative;
+  z-index:1;
+  top: -43em; 
+  left: 5em;
+}
+@media screen and (max-width:480px) {
+  .rose {
+     width: 100px;
+ 	 height:200px;
+    top: -24em;
+  position:relative; 
+    margin-right: auto; 
+    margin-left: auto;
+    left:-5em;
+  }
+}
+
+.carpet {
+width:51.5%;
+left:237px;
+position: relative;
+z-index: 0;
+top:-53em;
+} 
+@media screen and (max-width:480px) {
+  .carpet {
+     width: 170px;
+    top: -47em;
+  position:relative; 
+    margin-right: auto; 
+    margin-left: auto;
+    left:1em;
+  }
+}
+
+lottie-player {
+ transform: rotate(-8deg);
+ position: relative; 
+ margin-left: 21em; 
+ padding-top: 10px;
+}
+@media screen and (max-width:480px) {
+ 
+  lottie-player {
+    margin-left: 0em;
+  }
+  }
+
+
+@font-face {
+ font-family:'Cormorantgaramond-regular';
+  src: url('https://static1.squarespace.com/static/602cd57c54fe9570c40b2b67/t/6030096d56816f5b1706ed0f/1613760879034/CormorantGaramond-Regular.ttf');
+}
+
+h4{
+  font-family: 'Cormorantgaramond-regular'; 
+  line-height: 0em;
+  font-weight:lighter;
+}
+p {
+  font-family: 'AzoSans-Light'
+}
+.sqs-block-button-element--medium  {
+  font-family:  'AzoSans-light';
+    font-weight: lighter;
+background-color: #ae2424 !important;
+  border-color:  #ae2424 !important;
+  padding-top: 0.8em;
+  padding-bottom: 0.8em;
+}
+
+@media screen and (max-width:480px) {
+  .smeer {
+    margin-top: 1em;
+    margin-left: -2em;
+  }
+}
+p1{
+  font-family: Lora, serif;
+}
+.rugs {
+  font-size: 101em;
+  position: absolute;
+  left:1em;
+  z-index: 3;
+  width: 3em;
+  top: -4em;
+
+}
+@media screen and (max-width:480px){
+  .rugs {
+    font-size: 5em;
+    top: -8em;
+  }}
+/*beige rug*/
+@media screen and (max-width:480px){
+  #block-yui_3_17_2_1_1616429684730_7544 {
+    width: 40%;
+ 
+  }
+}
+/*organic rug*/
+@media screen and (max-width:480px){
+  #block-yui_3_17_2_1_1616429684730_6224{
+    width: 40%;
+margin-top: -15em;
+    margin-left: 12em;
+  
+  }
+}
+/*blue rug*/
+@media screen and (max-width:480px){
+  #block-yui_3_17_2_1_1616429684730_43137{
+    width:40%;
+    top: -3em;
+  }
+}
+/*MORE link*/
+@media screen and (max-width:480px){
+  #block-yui_3_17_2_1_1616614026020_42551{
+ display:none;
+  }
+}
+/*gradient- rug*/
+@media screen and (max-width:480px){
+  #block-yui_3_17_2_1_1616429684730_74143{
+    width: 40%;
+    top: -20em;
+    left: 12em;
+  }
+  
+}
+/*larger text*/
+@media screen and (max-width: 480px){
+  #block-yui_3_17_2_1_1616429684730_97065{
+    display: none;
+   
+  }
+}
+/*black and white rug*/
+@media screen and(max-width:480px){
+  #block-yui_3_17_2_1_1616429684730_39656{
+    width: 40%; 
+    top: -18em;
+  }
+}
+@media screen and(max-width:480px){
+#block-yui_3_17_2_1_1616429684730_87726{
+  width: 40%;
+  top: -42em;
+  left: 12em;
+  }
+}
